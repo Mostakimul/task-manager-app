@@ -47,8 +47,8 @@
       >
         <input
           type="text"
+          disabled
           v-model="task.taskTitle"
-          :disabled="task.completed"
           :class="{
             'bg-gray-800': !task.completed,
             'bg-green-400': task.completed,
